@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>select_EnabledDisabled</name>
+   <tag></tag>
+   <elementGuidId>72f6e407-c9bc-4fdb-8d91-ffba76857aa5</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//select[@id='systemUser_status']</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>#systemUser_status</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>select</value>
+      <webElementGuid>d1e319e9-eb51-4e4b-a15e-8d24cf28aeee</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>formSelect</value>
+      <webElementGuid>2e8bac9d-ac8b-4450-9a4d-c311280ee2a3</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>maxlength</name>
+      <type>Main</type>
+      <value>3</value>
+      <webElementGuid>fa895d88-1514-42c8-a000-ebb531c301e4</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>name</name>
+      <type>Main</type>
+      <value>systemUser[status]</value>
+      <webElementGuid>8bfe8e2f-da8d-4ce3-a289-2337dafa76bc</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>systemUser_status</value>
+      <webElementGuid>d28a7f40-7dc5-40a0-8e12-940558b418d0</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>
+Enabled
+Disabled
+</value>
+      <webElementGuid>3920d927-6337-4dcd-b203-621c0e9e0179</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;systemUser_status&quot;)</value>
+      <webElementGuid>ad72c61f-ffc0-4b44-9a11-2ebf348d6140</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//select[@id='systemUser_status']</value>
+      <webElementGuid>e48ed09f-9554-4776-a549-cac926cf202c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//form[@id='frmSystemUser']/fieldset/ol/li[4]/select</value>
+      <webElementGuid>902c22b6-9024-4837-acce-3089e44000d7</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='*'])[4]/following::select[1]</value>
+      <webElementGuid>13be45c3-8822-4fba-9e14-655818475d11</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Change Password'])[1]/preceding::select[1]</value>
+      <webElementGuid>c9de87ca-28e3-4fb9-a9b7-f1a0b3c75fc7</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//li[4]/select</value>
+      <webElementGuid>60e6d9e2-5e84-4b50-94c1-53bb804e930b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//select[@name = 'systemUser[status]' and @id = 'systemUser_status' and (text() = '
+Enabled
+Disabled
+' or . = '
+Enabled
+Disabled
+')]</value>
+      <webElementGuid>6e1df558-02b5-4978-8255-3d7a0132833b</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

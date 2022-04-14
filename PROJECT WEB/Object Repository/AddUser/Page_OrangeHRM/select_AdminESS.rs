@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>select_AdminESS</name>
+   <tag></tag>
+   <elementGuidId>b8a2ef69-a346-4c0c-a2f2-b7b595515eb6</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//select[@id='systemUser_userType']</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>#systemUser_userType</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>select</value>
+      <webElementGuid>c19eaf9a-14dd-46fa-9df3-75f60fbc8ed7</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>formSelect valid</value>
+      <webElementGuid>59a78f01-9b3b-42d9-97ba-ae77a970dd9c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>maxlength</name>
+      <type>Main</type>
+      <value>3</value>
+      <webElementGuid>23c9345b-dfdc-4ba6-a35c-bd7626935240</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>name</name>
+      <type>Main</type>
+      <value>systemUser[userType]</value>
+      <webElementGuid>2d880660-2bae-4cb6-ac5f-ac4ce8ccff01</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>systemUser_userType</value>
+      <webElementGuid>15072c1f-15a1-4cda-9f8b-a82b2e69efe1</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>
+Admin
+ESS
+</value>
+      <webElementGuid>022f7ab7-8dfb-4f51-bcf9-4829a7729dda</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;systemUser_userType&quot;)</value>
+      <webElementGuid>1d4ac716-516b-4ce2-801a-75a8787ad840</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//select[@id='systemUser_userType']</value>
+      <webElementGuid>a096433a-a29c-40d7-8a98-2a2fc341e242</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//form[@id='frmSystemUser']/fieldset/ol/li/select</value>
+      <webElementGuid>86174a8c-0f30-4b93-89ab-cc390c315034</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='*'])[1]/following::select[1]</value>
+      <webElementGuid>641639b1-3c01-4d92-ac66-093d596484d7</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='*'])[2]/preceding::select[1]</value>
+      <webElementGuid>4647f686-6d22-4654-927b-a8a6517f2d6b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//select</value>
+      <webElementGuid>db8a44ea-6989-49a2-b370-5e922d94d706</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//select[@name = 'systemUser[userType]' and @id = 'systemUser_userType' and (text() = '
+Admin
+ESS
+' or . = '
+Admin
+ESS
+')]</value>
+      <webElementGuid>dc0bc7e3-2ea6-4813-9e92-d128ae99609a</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>
