@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>a_Users</name>
+   <name>a_User Management</name>
    <tag></tag>
-   <elementGuidId>4ea9727d-9ab1-4dae-87eb-6cdacc1d76a6</elementGuidId>
+   <elementGuidId>dd7473e3-bb94-4ca5-ada2-4ff11427051d</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//a[@id='menu_admin_viewSystemUsers']</value>
+         <key>CSS</key>
+         <value>#menu_admin_UserManagement</value>
       </entry>
       <entry>
-         <key>CSS</key>
-         <value>#menu_admin_viewSystemUsers</value>
+         <key>XPATH</key>
+         <value>//a[@id='menu_admin_UserManagement']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,126 +22,134 @@
       <name>tag</name>
       <type>Main</type>
       <value>a</value>
-      <webElementGuid>cfc00125-323b-45e2-b81d-64720f9f1278</webElementGuid>
+      <webElementGuid>fc17bab1-202f-48fc-a522-c707c42a35c2</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>href</name>
       <type>Main</type>
-      <value>/index.php/admin/viewSystemUsers</value>
-      <webElementGuid>d4ce9648-88ae-4460-8e00-b8f9a1fbfc80</webElementGuid>
+      <value>#</value>
+      <webElementGuid>2fc016ad-a1f9-4651-ad18-05c40283024a</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>id</name>
       <type>Main</type>
-      <value>menu_admin_viewSystemUsers</value>
-      <webElementGuid>4a6fadff-1ead-4cae-9b9e-f725dccfaa1e</webElementGuid>
+      <value>menu_admin_UserManagement</value>
+      <webElementGuid>074a5eb8-1ba5-43c0-9ded-60be1d0dbc18</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>arrow</value>
+      <webElementGuid>aace3cc6-9bd0-4328-8386-8c6be778a2f5</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>Users</value>
-      <webElementGuid>0626ec35-9b75-4b20-9cbb-66e8bb6ce89a</webElementGuid>
+      <value>User Management</value>
+      <webElementGuid>b934e2cc-7b4f-4e72-8975-5c6f2b376480</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;menu_admin_viewSystemUsers&quot;)</value>
-      <webElementGuid>504c6ae0-70fb-40cd-85ba-573d0c51a1bb</webElementGuid>
+      <value>id(&quot;menu_admin_UserManagement&quot;)</value>
+      <webElementGuid>9abfea13-2b63-4933-b6ec-fadf0bf0c40d</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>
-      <value>//a[@id='menu_admin_viewSystemUsers']</value>
-      <webElementGuid>36c7a174-50cb-44dc-b185-66510d1f924e</webElementGuid>
+      <value>//a[@id='menu_admin_UserManagement']</value>
+      <webElementGuid>19020a8a-4e4a-4f78-90d4-341165c78b05</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//ul[@id='mainMenuFirstLevelUnorderedList']/li/ul/li/ul/li/a</value>
-      <webElementGuid>f427ef01-fd9f-452c-810b-5a0d42018f3c</webElementGuid>
+      <value>//ul[@id='mainMenuFirstLevelUnorderedList']/li/ul/li/a</value>
+      <webElementGuid>ae12b5b3-c9b4-4c9f-95c1-f67fea9f8cc3</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:link</name>
       <type>Main</type>
-      <value>//a[contains(text(),'Users')]</value>
-      <webElementGuid>3ee86ba0-c185-40ad-9ed1-cbe6e2a8a07d</webElementGuid>
+      <value>//a[contains(text(),'User Management')]</value>
+      <webElementGuid>0ec917ca-26f7-42ba-bdec-1fa5a4cb6a33</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Admin'])[1]/following::a[2]</value>
-      <webElementGuid>2ae2c11f-1506-41b3-ae93-ca2d4c8e6f41</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Admin'])[1]/following::a[1]</value>
+      <webElementGuid>18aedfbd-3281-4ca8-8267-d217116c7c44</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Confirm Toggl Sync'])[1]/following::a[3]</value>
-      <webElementGuid>3a2aa87d-1a2f-42fe-b2c1-cfb214b0fb10</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Confirm Toggl Sync'])[1]/following::a[2]</value>
+      <webElementGuid>0846f89c-621b-4a99-9ec2-6bd7cfc1baf8</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Job Titles'])[1]/preceding::a[2]</value>
-      <webElementGuid>cabb6bb0-292f-4680-b992-2b9516e50748</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Users'])[1]/preceding::a[1]</value>
+      <webElementGuid>5f7bdff3-abc9-4097-81b3-e7546f185d1c</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Pay Grades'])[1]/preceding::a[3]</value>
-      <webElementGuid>b333aad1-6ac5-4a7e-af29-01c2d0a340d3</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Job Titles'])[1]/preceding::a[3]</value>
+      <webElementGuid>cd935a32-811e-4d75-91cb-846f53d07d46</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>//*/text()[normalize-space(.)='Users']/parent::*</value>
-      <webElementGuid>a9e26c06-609f-47e7-a23b-d3ae37f7b042</webElementGuid>
+      <value>//*/text()[normalize-space(.)='User Management']/parent::*</value>
+      <webElementGuid>bbf45163-b6aa-45f1-aa16-17c48d54ed72</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:href</name>
       <type>Main</type>
-      <value>//a[contains(@href, '/index.php/admin/viewSystemUsers')]</value>
-      <webElementGuid>a5efa64c-537d-4b55-a21e-7975d2f5ecc6</webElementGuid>
+      <value>(//a[contains(@href, '#')])[3]</value>
+      <webElementGuid>9350b2a6-fe67-4596-824e-f5db8bbf9e57</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//li/ul/li/ul/li/a</value>
-      <webElementGuid>7b2153ae-a221-4db4-8cc4-36a429db6bc6</webElementGuid>
+      <value>//li/ul/li/a</value>
+      <webElementGuid>c4b49d52-5e1c-416d-bfe4-7f11b3d2c033</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:customAttributes</name>
       <type>Main</type>
-      <value>//a[@href = '/index.php/admin/viewSystemUsers' and @id = 'menu_admin_viewSystemUsers' and (text() = 'Users' or . = 'Users')]</value>
-      <webElementGuid>cc5a2860-b93a-4f1d-a071-2ea3febae991</webElementGuid>
+      <value>//a[@href = '#' and @id = 'menu_admin_UserManagement' and (text() = 'User Management' or . = 'User Management')]</value>
+      <webElementGuid>39f76bbc-c158-43bc-a3a8-877f4a51d20f</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

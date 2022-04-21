@@ -44,40 +44,4 @@ import cucumber.api.java.en.When
 
 
 class DelUser {
-	/*
-	@Given("User is on login page")
-	public void atlogin() {
-		WebUI.openBrowser('')
-		WebUI.navigateToUrl('https://opensource-demo.orangehrmlive.com')
-	}
-
-	@When("User fills details with (.*) and (.*)")
-	public void EnteredCredentials(String Username, String Password) {
-		WebUI.setText(findTestObject('Object Repository/Login/Page_OrangeHRM/input_LOGIN Panel_txtUsername'), Username)
-		WebUI.setText(findTestObject('Object Repository/Login/Page_OrangeHRM/input_Username_txtPassword'), Password)
-	}
-
-	@When("User is sent flying to Users page")
-	public void flytoUsers() {
-		WebUI.mouseOver(findTestObject('Search User/Page_OrangeHRM/b_Admin'))
-		WebUI.mouseOver(findTestObject('Search User/Page_OrangeHRM/a_User Management'))
-		WebUI.click(findTestObject('Object Repository/Search User/Page_OrangeHRM/a_Users'))
-	}
-
-	@And("User uses Login Button")
-	public void	Clicksonlogin() {
-		WebUI.click(findTestObject('Object Repository/Login/Page_OrangeHRM/input_Password_Submit'))
-	}
-
-	@Then("User is sent flying to home page")
-	public void flytohome() {
-		WebUI.navigateToUrl('https://opensource-demo.orangehrmlive.com/index.php/dashboard')
-	}
-
-	@Then("User Ticks Checkboxes")
-	public void TickCheckBoxes() {
-		WebUI.check(findTestObject(By.xpath('ohrmList_chkSelectRecord_50')))
-		WebUI.check(findTestObject(By.xpath('ohrmList_chkSelectRecord_51')))
-		WebUI.click(findTestObject('Object Repository/DelUser/Page_OrangeHRM/input_Status_btnDelete'))
-	}*/
 }

@@ -4,11 +4,11 @@ Feature: Lookforuser
     Given User Navigate to login page
     When User fill in the details for <Username> and <Password>
     And User Clicks Login Button
-    When User is directed to home page
     When User MouseOver Admin
-    Then User is directed to Users page
     Then User Input Details with <UsrNm> and <EmployeeName>
     Then User Clicks Search Button
+    Then Close Browser
+    
 
     Examples: 
       | Username | Password | UsrNm   | EmployeeName  |
@@ -19,11 +19,11 @@ Feature: Lookforuser
     Given User Navigate to login page
     When User fill in the details for <Username> and <Password>
     And User Clicks Login Button
-    When User is directed to home page
     When User MouseOver Admin
-    Then User is directed to Users page
     Then User Input False Details with <EUsrNm> and <EEmployeeName>
     Then User Clicks Search Button
+    Then Close Browser
+    
 
     Examples: 
       | Username | Password | EUsrNm           | EEmployeeName    |

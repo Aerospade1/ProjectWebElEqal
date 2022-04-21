@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>a_Finance Manager</name>
+   <tag></tag>
+   <elementGuidId>e8cfdbc6-fb78-4dee-a021-59a9cd53a4ec</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//a[contains(text(),'Finance Manager')]//preceding::input[1]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>a</value>
+      <webElementGuid>45caf064-ff76-4994-9f11-d4ba4635be83</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>href</name>
+      <type>Main</type>
+      <value>https://opensource-demo.orangehrmlive.com/index.php/admin/saveJobTitle?jobTitleId=20</value>
+      <webElementGuid>067022cd-08a1-40d9-b019-6cce33dae757</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Finance Manager</value>
+      <webElementGuid>fbf5ed2a-f193-45cd-a213-d954a124879b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;resultTable&quot;)/tbody[1]/tr[@class=&quot;even&quot;]/td[@class=&quot;left&quot;]/a[1]</value>
+      <webElementGuid>32e0cacf-bb84-4e1a-8a5e-be33ce623905</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//table[@id='resultTable']/tbody/tr[10]/td[2]/a</value>
+      <webElementGuid>b9798435-3dc8-40d6-8768-ec4d9ac9cf6c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:link</name>
+      <type>Main</type>
+      <value>//a[contains(text(),'Finance Manager')]</value>
+      <webElementGuid>986e1521-6baf-44ee-a838-5e0f42e7d966</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Software Engineer'])[1]/following::a[1]</value>
+      <webElementGuid>20809172-d9c5-470f-ad77-248c2d8c43ff</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Engineer'])[1]/following::a[1]</value>
+      <webElementGuid>52cacf66-51ce-49f9-9a7b-70c7a7315b28</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Financial Analyst'])[1]/preceding::a[1]</value>
+      <webElementGuid>a761166b-397b-4067-9e04-baf4216ebe11</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Head of Support'])[1]/preceding::a[2]</value>
+      <webElementGuid>5ceb9be6-ba12-400a-9283-eb791c8663dc</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Finance Manager']/parent::*</value>
+      <webElementGuid>de39e2af-d887-41b7-bdf9-0d895bfc6ac2</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:href</name>
+      <type>Main</type>
+      <value>//a[contains(@href, 'https://opensource-demo.orangehrmlive.com/index.php/admin/saveJobTitle?jobTitleId=20')]</value>
+      <webElementGuid>312d2bd7-96d6-4a5a-8e32-df82f69924d4</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//tr[10]/td[2]/a</value>
+      <webElementGuid>66e9f091-6798-4224-b748-43d0b0cb7476</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//a[@href = 'https://opensource-demo.orangehrmlive.com/index.php/admin/saveJobTitle?jobTitleId=20' and (text() = 'Finance Manager' or . = 'Finance Manager')]</value>
+      <webElementGuid>86e5f282-bc6d-4f80-b20f-75ddf9bdfba0</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

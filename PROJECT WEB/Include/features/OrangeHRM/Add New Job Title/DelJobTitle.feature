@@ -1,14 +1,13 @@
-Feature: Login
+Feature: Delete Job Title
+  I want to use this template for my feature file
 
-  Scenario Outline: Login Successfully
+  Scenario Outline: Delete Job Title
     Given User Navigate to login page
     When User fill in the details for <Username> and <Password>
     And User Clicks Login Button
-    Then User is directed to home page
-		When User MouseOver Admin
-		Then User Clicks Add Job
+    When User MouseOver JobTitle
+    When User Picks Jobs to delete
+
     Examples: 
       | Username | Password |
       | admin    | admin123 |
-
-  

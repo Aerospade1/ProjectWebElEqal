@@ -65,9 +65,16 @@ class ALLinONE {
 	@When("User MouseOver Admin")
 	public void MoAdmin() {
 		WebUI.mouseOver(findTestObject('Search User/Page_OrangeHRM/b_Admin'))
-		WebUI.mouseOver(findTestObject('Search User/Page_OrangeHRM/a_User Management'))
-		WebUI.click(findTestObject('Object Repository/Search User/Page_OrangeHRM/a_Users'))
+		WebUI.mouseOver(findTestObject('Object Repository/TESTEST/Page_OrangeHRM/a_User Management'))
+		WebUI.click(findTestObject('Object Repository/TESTEST/Page_OrangeHRM/a_Users'))
 	}
+	@When("User MouseOver JobTitle")
+	public void MoJobTitle() {
+		WebUI.mouseOver(findTestObject('Search User/Page_OrangeHRM/b_Admin'))
+		WebUI.mouseOver(findTestObject('Object Repository/Job Title/Page_OrangeHRM/a_Job'))
+		WebUI.click(findTestObject('Object Repository/Job Title/Page_OrangeHRM/a_Job Titles'))
+	}
+
 	@When("User enters new user details (.*), (.*), (.*) and (.*)")
 	public void newuserdetails(String STAFF, String USRNAME, String PWD, String PWD2 ) {
 		WebUI.setText(findTestObject('Object Repository/TESTEST/Page_OrangeHRM/input__systemUseremployeeNameempName'), STAFF)
@@ -76,20 +83,32 @@ class ALLinONE {
 		WebUI.setText(findTestObject('Object Repository/TESTEST/Page_OrangeHRM/input__systemUserconfirmPassword'), PWD2)
 	}
 
+	@When("User Upload File")
+	public void Uploadfile() {
+		WebUI.uploadFile(findTestObject('Object Repository/Job Title/Page_OrangeHRM/input_Job Specification_jobTitlejobSpec'), 'C:\\Users\\Aero\\OneDrive\\Desktop\\HEHE.JPG')
+	}
+
+	@When("User add PicMoreThan1MB")
+	public void ErrorUploadfile() {
+		WebUI.uploadFile(findTestObject('Object Repository/Job Title/Page_OrangeHRM/input_Job Specification_jobTitlejobSpec'), 'C:\\Users\\Aero\\OneDrive\\Desktop\\Teh.JPG')
+	}
+
+	@When("User MoveOverES")
+	public void MOES() {
+		WebUI.mouseOver(findTestObject('Search User/Page_OrangeHRM/b_Admin'))
+		WebUI.mouseOver(findTestObject('Object Repository/Job Title/Page_OrangeHRM/a_Job'))
+		WebUI.click(findTestObject('Object Repository/Employment Status/Page_OrangeHRM/a_Employment Status'))
+	}
+
 	@And("User Clicks Login Button")
 	public void	Clicklogin() {
 		WebUI.click(findTestObject('Object Repository/Login/Page_OrangeHRM/input_Password_Submit'))
 	}
 
+
 	@And("User Enters (.*)")
 	public void FillsUsername(String FUsername) {
 		WebUI.setText(findTestObject('Object Repository/Reset Password/Page_OrangeHRM/input_OrangeHRM Username_securityAuthenticationuserName'), FUsername )
-	}
-
-	@Then("User is directed to home page")
-	public void gotohome() {
-		WebUI.navigateToUrl(('https://opensource-demo.orangehrmlive.com/index.php/dashboard'))
-		WebUI.navigateToUrl(('https://opensource-demo.orangehrmlive.com/index.php/auth/login'))
 	}
 
 	@Then("Alert User Invalid Account")
@@ -101,10 +120,7 @@ class ALLinONE {
 	public void Resetnow() {
 		WebUI.click(findTestObject('Object Repository/Reset Password/Page_OrangeHRM/input_OrangeHRM Username_button'))
 	}
-	@Then("User is directed to Users page")
-	public void gotouser() {
-		WebUI.navigateToUrl(('https://opensource-demo.orangehrmlive.com/index.php/admin/viewSystemUsers'))
-	}
+
 	@Then("User Input Details with (.*) and (.*)")
 	public void EnterDetails(String UsrNm, String EmployeeName) {
 		WebUI.setText(findTestObject('Object Repository/Search User/Page_OrangeHRM/input_Username_searchSystemUseruserName'), UsrNm)
@@ -155,5 +171,57 @@ class ALLinONE {
 	@Then("Close Browser")
 	public void KillBrowser() {
 		WebUI.closeBrowser()
+	}
+	@Then("User Clicks Add Job")
+	public void AddJob() {
+		WebUI.click(findTestObject('Object Repository/Job Title/Page_OrangeHRM/input_Job Titles_btnAdd'))
+	}
+
+	@Then ("User Entered Job Details for (.*), (.*) and (.*)")
+	public void AddJobDetails(String JobTitle,String JobDesc, String Note) {
+		WebUI.setText(findTestObject('Object Repository/Job Title/Page_OrangeHRM/input__jobTitlejobTitle'), JobTitle)
+		WebUI.setText(findTestObject('Object Repository/Job Title/Page_OrangeHRM/textarea_Job Description_jobTitlejobDescription'), JobDesc)
+		WebUI.setText(findTestObject('Object Repository/Job Title/Page_OrangeHRM/textarea_Note_jobTitlenote'), Note)
+	}
+	@Then ("User Clicks Save Job Title")
+	public void ClickSaveJobTitle() {
+		WebUI.click(findTestObject('Object Repository/Job Title/Page_OrangeHRM/input__btnSave'))
+		WebUI.delay(4)
+	}
+	@Then("User Revise Job Details")
+	public void ReEnterJobDetails() {
+		WebUI.setText(findTestObject('Object Repository/Job Title/Page_OrangeHRM/input__jobTitlejobTitle'), 'Tester')
+	}
+	@Then("User Delete Account")
+	public void DelAcc() {
+		WebUI.click(findTestObject('Object Repository/DelUser/Page_OrangeHRM/a_EQALJ'))
+		//WebUI.click(findTestObject('Object Repository/DelUser/Page_OrangeHRM/a_HarryKane'))
+		WebUI.click(findTestObject('Object Repository/DelUser/Page_OrangeHRM/input_Status_btnDelete'))
+		WebUI.click(findTestObject('Object Repository/DelUser/Page_OrangeHRM/input_OrangeHRM - Confirmation Required_dialogDeleteBtn'))
+	}
+	@Then("User Picks Jobs to delete")
+	public void TickJobstoDelete() {
+		WebUI.click(findTestObject('Object Repository/Job Title/Page_OrangeHRM/a_Finance Manager'))
+		WebUI.click(findTestObject('Object Repository/Job Title/Page_OrangeHRM/a_Financial Analyst'))
+		WebUI.click(findTestObject('Object Repository/Job Title/Page_OrangeHRM/input_Job Titles_btnDelete'))
+		WebUI.click(findTestObject('Object Repository/Job Title/Page_OrangeHRM/input_OrangeHRM - Confirmation Required_dialogDeleteBtn'))
+	}
+	@Then("User Adds New Employment Status with (.*)")
+	public void AddnewES(String ES) {
+		WebUI.click(findTestObject('Object Repository/Employment Status/Page_OrangeHRM/input_Employment Status_btnAdd'))
+		WebUI.setText(findTestObject('Object Repository/Employment Status/Page_OrangeHRM/input__empStatusname'), ES)
+		WebUI.click(findTestObject('Object Repository/Employment Status/Page_OrangeHRM/input__btnSave'))
+	}
+
+	@Then("User Adds Again with (.*)")
+	public void AddStatusAgain(String ES) {
+		AddnewES(ES)
+	}
+	@Then("User DeleteES")
+	public void DeleteES() {
+		WebUI.click(findTestObject('Object Repository/Employment Status/Page_OrangeHRM/a_Example'))
+		WebUI.click(findTestObject('Object Repository/Employment Status/Page_OrangeHRM/a_Test'))
+		WebUI.click(findTestObject('Object Repository/Employment Status/Page_OrangeHRM/input_Employment Status_btnDelete'))
+		WebUI.click(findTestObject('Object Repository/Employment Status/Page_OrangeHRM/input_OrangeHRM - Confirmation Required_dialogDeleteBtn'))
 	}
 }

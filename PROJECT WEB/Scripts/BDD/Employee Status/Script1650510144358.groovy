@@ -17,7 +17,7 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-CucumberKW.runFeatureFile('Include/features/OrangeHRM/LoginSteps/Login.feature')
+CucumberKW.runFeatureFolder('Include/features/OrangeHRM/Employment Status/EmployementStatus.feature')
 
-CucumberKW.runFeatureFile('Include/features/OrangeHRM/LoginSteps/ResetPassword.feature')
+CucumberKW.runFeatureFile('Include/features/OrangeHRM/Employment Status/DeleteStatus.feature')
 

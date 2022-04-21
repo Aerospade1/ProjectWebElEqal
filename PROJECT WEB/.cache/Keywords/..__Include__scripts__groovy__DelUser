@@ -1,10 +1,10 @@
 {
-  "keywordFileContentHash": "6EEAF0FF28F9F145BEA4EA87BB606582",
+  "keywordFileContentHash": "A9B0309B1021E1349597E2FB53373EB1",
   "keywordClasses": [
     {
       "name": "DelUser",
       "keywordMethods": []
     }
   ],
-  "javadocParsed": true
+  "javadocParsed": false
 }

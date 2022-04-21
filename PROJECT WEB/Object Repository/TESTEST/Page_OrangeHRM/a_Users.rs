@@ -6,12 +6,12 @@
    <elementGuidId>2ac4885d-43ec-4fef-8976-ba843c41ff8b</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//a[@id='menu_admin_viewSystemUsers']</value>
-      </entry>
-      <entry>
          <key>CSS</key>
          <value>#menu_admin_viewSystemUsers</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//a[@id='menu_admin_viewSystemUsers']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,7 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>a</value>
-      <webElementGuid>60b8c714-b70d-4a07-9f51-ca8e6d04dbaa</webElementGuid>
+      <webElementGuid>2143fd99-132b-4546-8759-f68370172413</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -30,7 +30,7 @@
       <name>href</name>
       <type>Main</type>
       <value>/index.php/admin/viewSystemUsers</value>
-      <webElementGuid>bee85f3b-a906-4a1c-9be1-4cca17312c60</webElementGuid>
+      <webElementGuid>f6d0b340-199d-4d0d-a3bd-90e1457460b8</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -38,10 +38,50 @@
       <name>id</name>
       <type>Main</type>
       <value>menu_admin_viewSystemUsers</value>
-      <webElementGuid>99766029-3cf8-4b8a-afac-66153e9548ae</webElementGuid>
+      <webElementGuid>c5a140cd-021b-4eff-8e88-bc6e5ae3e439</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Users</value>
+      <webElementGuid>bbb96424-7c2d-4df5-8d92-05a791213ac1</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;menu_admin_viewSystemUsers&quot;)</value>
+      <webElementGuid>664febef-f759-40ac-8d87-5dbce010ee6c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>a</value>
+      <webElementGuid>60b8c714-b70d-4a07-9f51-ca8e6d04dbaa</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>href</name>
+      <type>Main</type>
+      <value>/index.php/admin/viewSystemUsers</value>
+      <webElementGuid>bee85f3b-a906-4a1c-9be1-4cca17312c60</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>menu_admin_viewSystemUsers</value>
+      <webElementGuid>99766029-3cf8-4b8a-afac-66153e9548ae</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
@@ -62,7 +102,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//a[@id='menu_admin_viewSystemUsers']</value>
-      <webElementGuid>8c226d67-c9f5-4202-b11e-a03c4468e933</webElementGuid>
+      <webElementGuid>23ebab0b-9aeb-4004-80d6-7616250feebc</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -70,7 +110,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//ul[@id='mainMenuFirstLevelUnorderedList']/li/ul/li/ul/li/a</value>
-      <webElementGuid>e1b2c865-fcc3-40c2-ade4-b89e027afca2</webElementGuid>
+      <webElementGuid>b13811dd-893b-4fe8-858c-56c53c824383</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -78,7 +118,7 @@
       <name>xpath:link</name>
       <type>Main</type>
       <value>//a[contains(text(),'Users')]</value>
-      <webElementGuid>3ea1a9fb-66f1-44c6-9bb8-8e006858c937</webElementGuid>
+      <webElementGuid>328e7892-8b41-417b-8a19-bc6dbcc19cb4</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -86,7 +126,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Admin'])[1]/following::a[2]</value>
-      <webElementGuid>800993da-1331-449d-aef1-43d86be791e6</webElementGuid>
+      <webElementGuid>a09dfd41-4557-41b9-913f-45bf919161c8</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -94,7 +134,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Confirm Toggl Sync'])[1]/following::a[3]</value>
-      <webElementGuid>26337b25-8d45-40ca-89e5-1ad62bbc3b32</webElementGuid>
+      <webElementGuid>9c6868d4-eb7b-4420-bd08-347e68b7e776</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -102,7 +142,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Job Titles'])[1]/preceding::a[2]</value>
-      <webElementGuid>9c2c78d8-8c54-4083-800f-e390d1e12417</webElementGuid>
+      <webElementGuid>a7dd8531-f4a9-4f29-97e1-6de13847bd1b</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -110,7 +150,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Pay Grades'])[1]/preceding::a[3]</value>
-      <webElementGuid>3994e724-3237-4eb3-aa2a-82967f20f92a</webElementGuid>
+      <webElementGuid>face833e-5ed0-4712-a29e-5a11ee9a360c</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -118,7 +158,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='Users']/parent::*</value>
-      <webElementGuid>0b5341e3-2f5f-412e-95a0-b16a888b46e9</webElementGuid>
+      <webElementGuid>fc7da8d7-913d-445d-bb8a-0b860584278f</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -126,7 +166,7 @@
       <name>xpath:href</name>
       <type>Main</type>
       <value>//a[contains(@href, '/index.php/admin/viewSystemUsers')]</value>
-      <webElementGuid>986bdcd9-9639-4069-bee3-b716127c911d</webElementGuid>
+      <webElementGuid>d03d13a1-3e1d-48db-a88e-6ac9b6ad699b</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -134,7 +174,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//li/ul/li/ul/li/a</value>
-      <webElementGuid>16fac0c9-789b-4b92-9aec-e31fcd056fad</webElementGuid>
+      <webElementGuid>c29d1033-2b4b-48e7-b049-cd9d5e713048</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -142,6 +182,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//a[@href = '/index.php/admin/viewSystemUsers' and @id = 'menu_admin_viewSystemUsers' and (text() = 'Users' or . = 'Users')]</value>
-      <webElementGuid>3babcbb8-42ac-4078-8651-87d27d724375</webElementGuid>
+      <webElementGuid>c5a4bb33-76c3-4291-9482-8768c441ebee</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>
